@@ -1,4 +1,3 @@
-import { loadFixture } from "@nomicfoundation/hardhat-network-helpers";
 import type { SignerWithAddress } from "@nomiclabs/hardhat-ethers/dist/src/signer-with-address";
 import { expect } from "chai";
 import { ethers } from "hardhat";
@@ -6,8 +5,6 @@ import { ethers } from "hardhat";
 import type { SimpleWallet } from "../types/SimpleWallet.sol";
 import type { SimpleWallet__factory } from "../types/factories/SimpleWallet.sol";
 import type { Signers } from "./types";
-
-const { hashMessage } = require("@ethersproject/hash");
 
 describe("Unit tests", function () {
   before(async function () {
