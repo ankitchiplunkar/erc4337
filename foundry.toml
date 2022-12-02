@@ -1,0 +1,10 @@
+[profile.default]
+src = 'src'
+out = 'artifacts'
+libs = [
+    'lib',
+    'node_modules',
+]
+gas_reports = ["*"]
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
